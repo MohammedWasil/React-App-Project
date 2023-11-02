@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.notes_app{
+    display: flex;
+}
+
+.left_container_notes_app{
+    width: 25vw;
+}
+
+.right_container_notes_app{
+    background-color: #F7ECDC;
+    width: 75vw;
+}
+
+.desktop{
+    display: flex;
+}
+
+.mobile{
+    display: none;
+}
+
+@media screen and (min-width: 250px) and (max-width: 450px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    } 
+
+}
